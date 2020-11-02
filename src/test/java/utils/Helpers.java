@@ -3,7 +3,7 @@ package utils;
 import org.openqa.selenium.WebDriver;
 
 public class Helpers extends Base{
-    private static WebDriver driver;
+  //  private static WebDriver driver;
     public Helpers(WebDriver driver)
     {
         super(driver);

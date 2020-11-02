@@ -21,7 +21,6 @@ public class Base {
         PageFactory.initElements(driver,this);
     }
 
-
     public static WebDriver initializeDriver() throws IOException {
         properties = new Properties();
         FileInputStream fileInputStream = new FileInputStream("C:\\DownloadProjects\\CarGiantTest\\src\\test\\properties\\config.properties");
